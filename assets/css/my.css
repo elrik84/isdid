@@ -8,9 +8,29 @@
 .header .logo img {
   max-height: 60px;
 }
-.header .navmenu .dropdown ul a:hover, .header .navmenu .dropdown ul .active:hover, .header .navmenu .dropdown ul li:hover > a {
+
+.header .navmenu .dropdown ul a:hover,
+.header .navmenu .dropdown ul .active:hover,
+.header .navmenu .dropdown ul li:hover>a {
   color: #fff;
 }
-.header .btn-getstarted:hover, .header .header .btn-getstarted:focus:hover {
+
+.header .btn-getstarted:hover,
+.header .header .btn-getstarted:focus:hover {
   color: #fff;
-}/*# sourceMappingURL=my.css.map */
+}
+
+/*# sourceMappingURL=my.css.map */
+
+
+.hero {
+  video {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+  }
+}
