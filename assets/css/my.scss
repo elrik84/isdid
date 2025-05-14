@@ -1,6 +1,7 @@
 :root {
     --nav-hover-color: #11598B;
     --accent-color: #11598B;
+    --light-accent-color:rgb(110, 188, 245);
     --contrast-color: #fff;
     --nav-dropdown-hover-color: #11598B;
 }
@@ -51,11 +52,26 @@
         object-fit: cover;
         z-index: 1;
     }
-}
-
-.about.section{
-    img{
-        height: 100%;
-        object-fit: cover;
+    .icon-box i{
+        color: #fff;
+    }
+    .icon-box:hover i{
+        transition: all 0.3s ease-in-out;
+        color: var(--light-accent-color);
+    }
+    .icon-box:hover {
+        &:hover{
+            border-color: var(--light-accent-color) !important;
+        }
+        a {
+        color: var(--light-accent-color) !important;
+    }
     }
 }
+
+// .about.section{
+//     img{
+//         // height: 100%;
+//         // object-fit: cover;
+//     }
+// }
