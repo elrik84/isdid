@@ -78,9 +78,18 @@
   color: var(--light-accent-color) !important;
 }
 
+.about .content h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
 .features h3 {
   font-size: 2.4rem;
   font-weight: 700;
+}
+.features p {
+  color: var(--heading) !important;
+  font-family: var(--heading-font) !important;
 }
 .features .btn-getstarted,
 .features .btn-getstarted:focus {
@@ -91,4 +100,21 @@
   border-radius: 4px;
   transition: 0.3s;
   border: 2px solid var(--accent-color);
+}
+
+.call-to-action p {
+  font-size: 20px;
+  line-height: 1.4;
+}
+.call-to-action h3 {
+  font-size: 40px;
+}
+.call-to-action a {
+  background: #fff;
+  color: #000 !important;
+  border-color: #fff;
+}
+.call-to-action a:hover {
+  background: var(--accent-color);
+  color: #fff !important;
 }/*# sourceMappingURL=my.css.map */
